@@ -1,0 +1,131 @@
+body {
+  background: url(img/hatter.jpg);
+}
+
+h1 {
+  color: whitesmoke;
+}
+.topnav {
+  background-color: grey;
+  overflow: hidden;
+
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color:black;
+  color: white;
+}
+#logo{
+  margin-left: 150px;
+  width: 2px;
+  height: 2px;
+}
+.felkapott_neve {
+  font-size: 24px;
+  margin-top: -17px;
+  margin: auto;
+}
+.felkapott_kepek {
+  border: 2px solid rgb(59, 59, 59);
+  border-radius: 20px;
+  width: 90%;
+  height: 175px;
+  transition: 1s;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.felkapott_kepek_2 {
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
+.felkapott_hatter {
+  background-color: gray;
+  width: 16.8em;
+  margin-top: 0.7em;
+  height: 450px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 5px;
+  box-shadow: 5px 10px black;
+  margin-bottom: 15px;
+}
+.felkapott_kepek_travis {
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-left: 780px;
+  margin-bottom: 200px;
+}
+.alap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 71px;
+}
+#kosarnav {
+  margin-left: 1540px;
+}
+#kosarlogo {
+width: 30px;
+height: 30px;
+margin-top: 8px;
+}
+
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+font-size: 0.9em;
+padding-top: 15px;
+font-weight: 800;
+background-color: #464545;
+color: rgba(245, 245, 245, 0.699);
+text-align: center;
+}
+
+#gomb {
+display: none; /* Hidden by default */
+position: fixed; /* Fixed/sticky position */
+bottom: 20px; /* Place the button at the bottom of the page */
+right: 30px; /* Place the button 30px from the right */
+z-index: 99; /* Make sure it does not overlap */
+border: none; /* Remove borders */
+outline: none; /* Remove outline */
+background-color: red; /* Set a background color */
+color: white; /* Text color */
+cursor: pointer; /* Add a mouse pointer on hover */
+padding: 15px; /* Some padding */
+border-radius: 10px; /* Rounded corners */
+font-size: 18px; /* Increase font size */
+}
+
+#gomb:hover {
+background-color: #555; 
+}
+
+
+
+
