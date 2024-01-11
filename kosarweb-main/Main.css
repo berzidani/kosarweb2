@@ -3,10 +3,11 @@ body {
 }
 
 h1 {
-  color: whitesmoke;
+  color: white;
+  background-color: #464545;
 }
 .topnav {
-  background-color: grey;
+  background-color: #464545;
   overflow: hidden;
 
 }
@@ -125,7 +126,3 @@ font-size: 18px; /* Increase font size */
 #gomb:hover {
 background-color: #555; 
 }
-
-
-
-
