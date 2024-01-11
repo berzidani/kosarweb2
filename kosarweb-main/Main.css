@@ -158,3 +158,11 @@ p {
 .akcio {
   font-size: .8em;
 }
+h1:hover {
+  letter-spacing: 2px; 
+  color: rgb(245, 245, 245);
+  transition: 2s;
+
+  
+}
+
