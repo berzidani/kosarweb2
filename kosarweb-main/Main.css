@@ -6,7 +6,7 @@ body {
   height: 40px;
   animation-name: alap;
   animation-duration: 6s;
-  background-color: #fece01;
+  background-color: rgb(123, 156, 142);
 }
 
 h1 {
