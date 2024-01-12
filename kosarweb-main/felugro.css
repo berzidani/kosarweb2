@@ -1,0 +1,140 @@
+[id^="modal"] {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  [id^="modal"]:target {
+    display: block;
+  }
+  input[type="checkbox"] {
+    position: absolute;
+    clip: rect(0 0 0 0);
+  }
+  .popup {
+    width: 70%;
+    height: 100%;
+    z-index: 99999;
+  }
+  .popup__overlay {
+    position: fixed;
+    z-index: 1;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000000b3;
+  }
+  .popup__wrapper {
+    position: fixed;
+    z-index: 9;
+    width: 70%;
+    max-width: 1200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    padding: 58px 32px 32px 32px;
+    background: rgba(177, 174, 174, 0.808);
+  }
+  .popup__close {
+    position: absolute;
+    top: 16px;
+    right: 26px;
+    background-color: rgba(255, 0, 0, 0.733);
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  
+  @media screen and (max-width: 1101px) {
+    .popup__wrapper {
+      height: 500px;
+    }
+    .felugro {
+      padding-top: 50px;
+    }
+    .kosar {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+    .fieldset {
+      padding-top: 30px;
+      padding-bottom: 15px;
+    }
+  
+    .meretek {   
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 50px;
+    }
+  
+    .kepecske {
+      margin: 0 auto 0 auto;
+      display: block;
+      
+      border: 1px solid rgba(0, 0, 0, 0.699);
+      border-radius: 5%;
+      width: 260px;
+  }
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  @media screen and (min-width: 1102px) {
+    .felugro {
+      margin-left: 45%;
+      margin-top: -195px;
+    }
+  
+    .fieldset {
+      margin-left: 45%;
+      margin-top: 60px;
+    }
+  
+    .meretek {
+      margin-top: 50px;
+    }
+  
+    .kosar {
+      margin-top: 25px;
+      width: 25%;
+      height: 40px;
+      margin: 25px auto 0 auto;
+      display: block;
+    }
+  
+    .kepecske {
+      border: 1px solid rgba(0, 0, 0, 0.699);
+      border-radius: 5%;
+      width: 260px;
+    }
+  }
+  
+  .kosar {
+    background-color: rgba(209, 209, 209, 0.801);
+    border-radius: 5px;
+    transition: 1s;
+    font-size: 25px;
+  }
+  
+  select {
+    margin-top: -25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  
+  
+  .kosar:hover {
+    background-color: rgba(196, 160, 160, 0.527);
+  }
