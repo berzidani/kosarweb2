@@ -11,7 +11,7 @@ function torleees() {
 }
 
 function kosarba(termek) {
-    db = Number(prompt('Hány darabot akarsz?'))
+    db = Number(prompt('Hány darabot szeretnél?'))
     localStorage.setItem(termek, db)
 }
 
@@ -55,3 +55,33 @@ function RemoveItem(item) {
 function nincs(){
     alert('Jelenleg ebből a termékből nincs elérhető darab')
 }
+
+
+var PumaLameloBallOrange = 45000;
+var PumaLameloBallToxic = 62000;
+var PumaLameloBallChino = 65000;
+var AdidasDONIssueBlack = 37000;
+var AirJordanLuka2Caves = 60000;
+var NikeZoomFreak5Oreo = 49000;
+var AirJordanTatum1CoolGrey = 48000;
+var AirJordanZion3BlackWhite = 60000;
+var AirJordanZion3FreshPaint = 60000;
+var NikeKDTrey5XPhantom = 28000;
+var NikeGTHustle2Community = 56000;
+var NikeZoomGTJump2Black = 88000;
+var NikeJa1LightSmokeGrey = 48000;
+var NikeKD16BlackVividPurple = 58000;
+var NikeLebron21Tahitian = 80000;
+var NikeAirMaxImpact4White = 32000;
+var NikeZoomLebronNXXTGenWolf = 62000;
+var AirJordanOneTake4White = 40000;
+var NewBalanceTwoWxyV4Dualism = 60000;
+var NikeJa1GuavaIce = 48000;
+var NikeKD16EmberGlow = 64000;
+var NikeLebron21Akoya = 80000;
+var NikeLebron21Conchiolin = 80000;
+var NikeZoomGTJump2LtFusionRed = 70000;
+var NikeZoomFreak5BlackPurePlatinum = 54000;
+var UACurry2Burgundy = 45000;
+var NikeLebronNXXTGenLakers = 69000;
+var NikeLebronWitnessWhiteMetallicSilver = 46000;
